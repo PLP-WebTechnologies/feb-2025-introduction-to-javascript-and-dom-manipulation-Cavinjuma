@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOM Manipulation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1 id="main-title">Welcome to My Pet Page</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Pets</a></li>
+      <li><a href="#">Care</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Pet Info</h2>
+      <p id="info">Click the button to update this pet info.</p>
+    </section>
+
+    <button onclick="changeContent()">Change Text</button>
+    <button onclick="changeStyle()">Change Style</button>
+    <button onclick="toggleElement()">Add/Remove Extra Info</button>
+  </main>
+
+  <footer>
+    <p>© 2025 Juxx Pet Lovers</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
